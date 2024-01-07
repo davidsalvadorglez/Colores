@@ -1,0 +1,87 @@
+body {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: center;
+  margin: 3% 2%;
+  background-color: antiquewhite;
+}
+
+.izquierda{
+  width: auto;
+}
+.derecha{
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  
+}
+
+#start {
+  border: 0.1em solid black; 
+  text-align: center;
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+}
+
+.panel {
+  margin: 1em;
+  background-color: ghostwhite;
+  border-radius: 0.5em;
+}
+
+#control {
+  display: grid;
+  visibility: hidden;
+  border-radius: 0.5em;
+  grid-template-columns: repeat(3, 1fr );
+  
+  
+  background-color: rgb(254, 222, 178);
+}
+
+#pantones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr );
+  grid-row: 100%;
+  visibility: hidden;
+  border-radius: 0.5em;
+  background-color: rgb(254, 222, 178);
+}
+
+.btncolor {
+  width: 5em;
+  height: 5em;
+  padding: 0.5em;
+  margin: 1em auto;
+  
+  align-items: center;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+
+.panton {
+  width: 3em;
+  height:3em;
+  padding: 1.5em;
+  border-radius: 50%;
+  margin: 1em auto;
+}
+
+#ctrBlue {
+  background-color: mediumblue;
+  border-radius: 50%;
+}
+
+#ctrRed {
+  background-color: crimson;
+  border-radius: 50%;
+}
+
+#ctrGreen {
+  background-color: forestgreen;
+  border-radius: 50%;
+}
